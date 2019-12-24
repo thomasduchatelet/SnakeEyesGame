@@ -20,7 +20,8 @@
     <form asp-controller="Home" asp-action="Play" method="post">
         <input type="submit" value="Play" />
     </form>
-    @if (Model.HasSnakeEyes)
+    <p>Current highscore is @ViewBag.Highscore</p>
+    @if (Model.HasSnakeEyes && Model.Eye1 != 0)
     {
         <p class="Comment">Oops, you have snake eyes, Game over!</p>
     }
