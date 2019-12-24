@@ -16,6 +16,7 @@ namespace SnakeEyesGame
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession();
             services.AddControllersWithViews();
         }
 
@@ -30,6 +31,7 @@ namespace SnakeEyesGame
             app.UseRouting();
             app.UseStaticFiles();
             app.UseStatusCodePages();
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
