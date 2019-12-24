@@ -17,5 +17,8 @@
     <span class="SnakeEye">@Model.Eye1</span>
     <span class="SnakeEye">@Model.Eye2</span>
     <p>Total : @Model.Total</p>
+    <form asp-controller="Home" asp-action="Play" method="post">
+        <input type="submit" value="Play" />
+    </form>
 </body>
 </html>

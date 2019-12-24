@@ -15,5 +15,10 @@ namespace SnakeEyesGame.Controllers
             _snakeEyes = new SnakeEyes();
             return View(_snakeEyes);
         }
+        public IActionResult Play()
+        {
+            _snakeEyes.Play();
+            return View("Index", _snakeEyes);
+        }
     }
 }
