@@ -23,7 +23,7 @@ namespace SnakeEyesGame.Models
         public Dice()
         {
             _random = new Random();
-            Pips = 6;
+            Pips = 0;
         }
         #endregion
 

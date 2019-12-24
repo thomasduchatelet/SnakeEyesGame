@@ -13,12 +13,16 @@
 </head>
 <body>
     <h1>Snake eyes</h1>
-    <p>Keep going but don't get 2 one's</p>
+    <p>Keep going but don't get 2 equal numbers</p>
     <span class="SnakeEye">@Model.Eye1</span>
     <span class="SnakeEye">@Model.Eye2</span>
     <p>Total : @Model.Total</p>
     <form asp-controller="Home" asp-action="Play" method="post">
         <input type="submit" value="Play" />
     </form>
+    @if (Model.HasSnakeEyes)
+    {
+        <p class="Comment">Oops, you have snake eyes, Game over!</p>
+    }
 </body>
 </html>
