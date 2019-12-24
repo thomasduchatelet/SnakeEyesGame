@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SnakeEyesGame.Models.Dice">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABCAQAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Dice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnakeEyesGame.Models.SnakeEyes">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAADAAAAAAAAAAAQAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\SnakeEyes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
